@@ -7,13 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-# TABLE RELATIONS MANY TO MANY LARAVEL
+# ECOMMERCE RTACOMEDIA WITH LARAVEL & LIVEWIRE
 
-Code to create table Relation Many-to-Many with Laravel 8.
+Code to create ecommerce.
 
 # Stack
 
 * Laravel 8
+* Livewire
 * MySql
 * Artisan
 * Composer
@@ -23,17 +24,10 @@ Code to create table Relation Many-to-Many with Laravel 8.
 * composer create-project laravel/laravel:^8.0 ecommerce-laravel8 --ignore-platform-reqs (para crear el proyecto)
 * composer require livewire/livewire --ignore-platform-reqs (instalamos paquete livewire)
 * php artisan make:livewire HomeComponent (creamos un componente con livewire)
-
-
-* php artisan make:migration create_alumnos_table ( creamos la migración de la tabla alumnos)
-* php artisan make:migration create_materias_table ( creamos la migración de la tabla materias)
-* php artisan make:migration create_alumno_materia_table ( creamos la tabla pivot alumno_materia)
-* php artisan migrate ( corremos las migraciones)
-* php artisan make:model Alumno ( creamos el Modelo Alumno )
-* php artisan make:model Materia ( creamos el Modelo Materia )
-* php artisan make:model AlumnoMateria ( creamos el Modelo AlumnoMateria)
-* php artisan make:controller RelacionController ( creamos el controlador RelacionConrtroller )
 * php artisan serve ( para levantar el servidor)
+* php artisan make:livewire ShopComponent (creamos el componente ShopComponent)
+* php artisan make:livewire CartComponent (creamos el componente CartComponent)
+* php artisan make:livewire CheckoutComponent (creamos el componente CheckoutComponent)
 
 ## Screenshot
 
